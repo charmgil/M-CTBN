@@ -4,7 +4,7 @@ This package provides a Matlab implementation of Mixtures of Conditional Tree-st
 
 To train a model, use CTBN/MC/train_MC.m. To use a trained model for prediction, use CTBN/MC/predict_MC.m.
 
-demo.m contains a demonstration script that learns and uses the CTBN models on the emotions dataset [Trohidis et al. 2008].
+demo.m contains a demonstration script that learns and uses the MC models on the flags dataset [Eduardo, Plastino, Freitas 2013] using 10-fold cross validation.
 
 
 ----
@@ -20,5 +20,5 @@ Reference:
 
 [Hong, Batal, Hauskrecht 2014] C. Hong, I. Batal, and M. Hauskrecht. A mixtures-of-trees framework for multi-label classification. ACM International Conference on Information and Knowledge Management (CIKM 2014), Shanghai, China. November 2014.
 
-[Trohidis et al. 2008] K. Trohidis, G. Tsoumakas, G. Kalliris, I. Vlahavas. "Multilabel Classification of Music into Emotions". Proc. 2008 International Conference on Music Information Retrieval (ISMIR 2008), Philadelphia, PA, USA, 2008.
+[Eduardo, Plastino, Freitas 2013] G., Eduardo, A. Plastino, and A. Freitas. A Genetic Algorithm for Optimizing the Label Ordering in Multi-Label Classifier Chains. IEEE 25th International Conference on Tools with Artificial Intelligence (ICTAI), pp.469-476, 2013.
 
