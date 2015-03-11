@@ -17,8 +17,8 @@ load(['data/' dataset_name '.mat']);
 
 fprintf('[Training & testing MC on ''%s'']\n', dataset_name);
 
-% 10-fold cv
-K = 10;
+% 5-fold cv
+K = 5;
 CVO = cvpartition(Y(:,1), 'kfold', K);
 
 MC = cell(1, K);
@@ -37,7 +37,7 @@ for r = 1:CVO.NumTestSets
     % MC [Hong, Batal, Hauskrecht 2014]
     
     % init MT params
-    nCTBN = 10;
+    nCTBN = 5;
     
     % train
     MC_model = train_MC(X_tr, Y_tr, nCTBN);

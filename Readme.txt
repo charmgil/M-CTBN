@@ -20,5 +20,6 @@ Reference:
 
 [Hong, Batal, Hauskrecht 2014] C. Hong, I. Batal, and M. Hauskrecht. A mixtures-of-trees framework for multi-label classification. ACM International Conference on Information and Knowledge Management (CIKM 2014), Shanghai, China. November 2014.
 
-[Eduardo, Plastino, Freitas 2013] G., Eduardo, A. Plastino, and A. Freitas. A Genetic Algorithm for Optimizing the Label Ordering in Multi-Label Classifier Chains. IEEE 25th International Conference on Tools with Artificial Intelligence (ICTAI), pp.469-476, 2013.
+R. Fan, K. Chang, C. Hsieh, X. Wang, and C. Lin. LIBLINEAR: A Library for Large Linear Classification, Journal of Machine Learning Research 9(2008), 1871-1874. Software available at http://www.csie.ntu.edu.tw/~cjlin/liblinear
 
+[Eduardo, Plastino, Freitas 2013] G., Eduardo, A. Plastino, and A. Freitas. A Genetic Algorithm for Optimizing the Label Ordering in Multi-Label Classifier Chains. IEEE 25th International Conference on Tools with Artificial Intelligence (ICTAI), pp.469-476, 2013.
