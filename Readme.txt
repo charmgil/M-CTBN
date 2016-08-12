@@ -6,6 +6,8 @@ To train a model, use CTBN/MC/train_MC.m. To use a trained model for prediction,
 
 demo.m contains a demonstration script that learns and uses the MC models on the flags dataset [Eduardo, Plastino, Freitas 2013] using 10-fold cross validation.
 
+The package has been written and tested on Matlab R2013a-R2014b.
+
 
 ----
 
